@@ -5,13 +5,13 @@ class Didmount extends Component {
         this.state = {
             name: "Vidyut"
         }
-        // console.log("constructor");
+        //console.log("constructor");
     }
     componentDidMount() {
-        // console.log("componentDidMount");
+        //console.log("componentDidMount");
     }
     render() {
-        //  console.log("render");
+        // console.log("render");
         return (
             <div className='User'>
                 <h2>Component Didmount</h2>

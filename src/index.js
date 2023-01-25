@@ -26,7 +26,7 @@ import Refinfunctionalcomponent from './Ref-in-functional-component/Refinfunctio
 import Hoc from './HOC/Hoc';
 import Controllercomponent from './Controller-component/Controllercomponent';
 import Previousstate from './Previous-state/Previousstate';
-
+import Usereducehook from './Usereduce-Hook/Usereducehook';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -56,6 +56,7 @@ root.render(
     <Controllercomponent />
     <Hoc />
     <Previousstate />
+    <Usereducehook />
   </React.StrictMode>
 );
 

@@ -17,11 +17,12 @@ class DidmountUpdate extends Component {
         }
     }
     shouldComponentUpdate() {
+        //console.log("shouldComponentUpdate");
         if (this.state.counter < 5) {
             console.log("shouldComponentUpdate", this.state.counter);
             return true;
         } else {
-            alert("Yout time is over..");
+            alert("Your time is over..");
             return false;
         }
     }
